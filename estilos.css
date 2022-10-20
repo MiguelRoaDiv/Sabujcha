@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    margin: 0;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 13px;
+    
+}
+h1{
+    font-size: 60px;
+}
+p{
+    margin: 0px 10px;
+
+}
+/*  Header */
+
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header a{
+    padding: 0px 20px;
+    
+}
+.container img{
+    margin: 0px 200px;
+    padding: 0px 30px;
+}
+
+p{
+    margin-right: 10px;
+    padding: 50px;
+}
+i{
+    padding: 0px 60px;
+}
+a{
+    color: black;
+}
+
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+}
+
+#img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color:black;
+    background-image: url("img/slider-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* Section 1 */
+
+
+#sale-img .container{
+    margin: 100px 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+h2{
+    
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    color:  #529F0F;
+}
+.sale1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("img/banner-1.png");
+    background-repeat: no-repeat;
+}
+.sale2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("img/banner-2.png");
+    background-repeat: no-repeat;
+}
+.sale2 p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    
+
