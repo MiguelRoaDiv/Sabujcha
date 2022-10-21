@@ -51,7 +51,7 @@ header a{
     
 }
 .container img{
-    margin: 0px 200px;
+    margin: 0px 100px;
     padding: 0px 30px;
 }
 
@@ -135,6 +135,7 @@ a{
 }
 /* Section 2*/
 
+
 #last-products{
    
     display: flex;
@@ -174,7 +175,7 @@ li h4{
     text-align: left;
 }
 del{
-    color: grey;
+    color: #575757;
 }
 /* Section 3*/
 
@@ -204,8 +205,44 @@ del{
 }
 .section3 h5{
     padding:10px;
-    color: gray;
+    color: #575757;
     font-size: 15px;
 }
 
 /* Section 4*/
+
+.contenedor{
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor h3{
+    margin-top: 100px;
+    padding: 30px;
+}
+.contenedor p{
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+.contenedor ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid li{
+    padding: 10px;
+}
+.grid p{
+    text-align: left;
+}
+.grid h4{
+    padding: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #575757;
+}
+/* Section 5*/
