@@ -246,3 +246,33 @@ del{
     color: #575757;
 }
 /* Section 5*/
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+    background-image: url("img/bg-2.jpg");
+    background-repeat: no-repeat;
+}
+#container h1{
+    font-size: 50px;
+    padding: 20px;
+}
+
+.form .email{
+    background-image: url("img/bg-2.jpg");
+    padding: 15px 15px;
+    width: 500px;
+    
+}
+.form .boton{
+    
+    background: black;
+    color: white;
+    font: bold;
+    padding: 15px 15px;
+}
+
+/* Section 6*/
