@@ -248,17 +248,23 @@ del{
 /* Section 5*/
 
 #container{
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 100px;
+    background-size: cover;
+    background-position: center center;
     background-image: url("img/bg-2.jpg");
     background-repeat: no-repeat;
 }
 #container h1{
     font-size: 50px;
-    padding: 20px;
+    padding: 10px;
+}
+.form{
+    margin: 30px ;
+    padding: 10px;
 }
 
 .form .email{
@@ -276,3 +282,48 @@ del{
 }
 
 /* Section 6*/
+
+.latest-news{
+    padding: 30px;
+    background-image: url("img/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.titulo h1{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.titulo li{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.titulo a{
+    color: #529F0F;
+}
+.titulo h2{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.titulo h4{
+    padding: 10px;
+}
+.titulo p{
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    color:  #575757;
+    width: 250px;
+}
+.titulo .read-more{
+    padding: 10px;
+    color: black;
+}
+/* Section 7*/
