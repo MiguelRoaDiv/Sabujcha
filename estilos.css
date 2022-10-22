@@ -88,7 +88,25 @@ a{
     background-size: cover;
     background-position: center center;
 }
-
+@media (max-width: 768px){
+    .container img{
+        margin: 20px 10px;
+    }
+    i{
+        padding: 0px;
+    }
+    .container p{
+        padding: 0;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: black;
+    }
+    header nav{
+        display: flex;
+        align-items: center;
+    }
+}
 
 /* Section 1 */
 
@@ -100,11 +118,10 @@ a{
   
 }
 .fondo1{
-    padding: auto;
+    padding: 10px 30px;
     display: flex;
     flex-direction: column;
-    align-items:center;
-    justify-content:center;
+    justify-content: center;
 
     background-image: url("img/banner-1.png");
     background-repeat: no-repeat;
@@ -113,26 +130,17 @@ a{
     
 }
 .fondo2{
-    padding: auto;
+    padding: 10px 30px;
     display: flex;
     flex-direction: column;
-    align-items:center;
-    justify-content:center;
-
+    justify-content: center;
     background-image: url("img/banner-2.png");
     background-repeat: no-repeat;
     
     height: 50vh;
     
 }
-.sale1 h2{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    align-items:flex-start;
-  
-}
+
 /* Section 2*/
 
 
