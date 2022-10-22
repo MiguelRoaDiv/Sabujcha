@@ -90,21 +90,22 @@ a{
 }
 @media (max-width: 768px){
     .container img{
-        margin: 20px 10px;
+        
+        margin: 20px 0px;   
     }
+    .nav-link{
+        
+        margin: 0px -130px;
+        padding: 10px 30px;
+    }
+    
+    
+    
     i{
         padding: 0px;
     }
     .container p{
-        padding: 0;
-    }
-    .nav-link{
-        text-decoration: none;
-        color: black;
-    }
-    header nav{
-        display: flex;
-        align-items: center;
+        padding: 0px;
     }
 }
 
@@ -140,6 +141,15 @@ a{
     height: 50vh;
     
 }
+@media (max-width: 768px){
+    #sale-img .container{
+        margin: 10px 10px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+      
+    }
+}
 
 /* Section 2*/
 
@@ -151,6 +161,7 @@ a{
     text-align: center;
     background-image: url("img/bg-1.jpg");
     background-repeat: no-repeat;
+    background-position: center center;
 }
 #last-products p{
     padding: 10px 10px;
@@ -185,6 +196,25 @@ li h4{
 del{
     color: #575757;
 }
+@media (max-width: 768px){
+    ul{
+        margin: 30px 30px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #last-products{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-image: url("img/bg-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+}
 /* Section 3*/
 
 .lorem{
@@ -215,6 +245,14 @@ del{
     padding:10px;
     color: #575757;
     font-size: 15px;
+}
+@media (max-width: 768px){
+    .lorem{
+        margin: 100px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* Section 4*/
@@ -288,7 +326,14 @@ del{
     font: bold;
     padding: 15px 15px;
 }
-
+@media (max-width: 768px){
+    .form .email{
+        background-image: url("img/bg-2.jpg");
+        padding: 15px 15px;
+        width: 200px;
+        
+    }
+}
 /* Section 6*/
 
 .latest-news{
@@ -334,6 +379,8 @@ del{
     padding: 10px;
     color: black;
 }
+
+
 /* Section 7*/
 .container2{
     padding: 50px;
